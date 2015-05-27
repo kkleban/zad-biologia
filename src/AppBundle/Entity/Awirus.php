@@ -5,12 +5,12 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Aworms
+ * Awirus
  *
  * @ORM\Table()
  * @ORM\Entity
  */
-class Aworms
+class Awirus
 {
     /**
      * @var integer
@@ -50,7 +50,7 @@ class Aworms
      * Set name
      *
      * @param string $name
-     * @return Aworms
+     * @return Awirus
      */
     public function setName($name)
     {
@@ -73,7 +73,7 @@ class Aworms
      * Set size
      *
      * @param integer $size
-     * @return Aworms
+     * @return Awirus
      */
     public function setSize($size)
     {
